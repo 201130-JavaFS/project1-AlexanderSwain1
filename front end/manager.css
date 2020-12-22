@@ -1,0 +1,37 @@
+.reimbCellContentCentered
+{
+    text-align: center; 
+    padding:15px; 
+    font-size: 18pt; 
+    color: #555555;
+}
+.reimbCellContent
+{
+    padding:15px; 
+    font-size: 18pt; 
+    color: #555555;
+}
+
+.descCellContent 
+{
+    padding:15px;
+}
+
+.reimbRowLight
+{
+    background-color: #F5F5F5;
+}
+
+.reimbRowDark
+{
+    background-color: #F5F5F5;
+}
+
+.absolute-right
+{
+    -moz-transform: translate(-300%, 0%);
+    -ms-transform: translate(-300%, 0%);
+    -webkit-transform: translate(-300%, 0%);
+    -o-transform: translate(-300%, 0%);
+    transform: translate(-300%, 0%);
+}

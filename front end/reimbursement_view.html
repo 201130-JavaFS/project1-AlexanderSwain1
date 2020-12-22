@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimbursement View</title>
+</head>
+<body style=" text-align: center; background-color: #004466; color: white">
+
+    <div style="width: 100%;">
+        <h1 style="font-size: 30pt;">Reimbursement</h1>
+    </div>
+    <p id="failure" style="display: none;">An error has occured please try again.</p>
+    <br/>
+    <br/>
+
+    <table id="reimbursementTable" border="1" style="width: 60%; margin-left: 20%; margin-right: 20%; color: white; border-width: 1px; border: #CCEEFF;">
+        <colgroup>
+            <col span="1" style="width: 10%;">
+            <col span="1" style="width: 50%;">
+        </colgroup>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">No.</td>
+            <td id="idCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Amount</td>
+            <td id="amountCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Submitted</td>
+            <td id="submittedCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Resolved</td>
+            <td id="resolvedCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Description</td>
+            <td id="descriptionCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Receipt</td>
+            <td id="receiptCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">null</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Author</td>
+            <td id="authorCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Resolver</td>
+            <td id="resolverCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Status</td>
+            <td id="statusCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Type</td>
+            <td id="typeCell" style="text-align: center; padding:15px; font-size: 18pt; color: #CCEEFF;">Loading...</td>
+        </tr>
+    </table>
+
+    <table id="buttonTable" border="0" style="display: none;width: 60%; margin-left: 20%; margin-right: 20%; margin-top: 50px; color: white;">
+        <colgroup>
+            <col span="1" style="width: 50%;">
+            <col span="1" style="width: 50%;">
+        </colgroup>
+        <tr>
+            <td>
+                <button id="approveButton" style="align-self: center; font-size: 22pt; background-color: #00BB55; color: white; padding: 15px;">Approve</button>
+            </td>
+            <td>
+                <button id="denyButton" style="align-self: center; font-size: 22pt; background-color: #AA2200; color: white; padding: 15px;">Deny</button>
+            </td>
+        </tr>
+    </table>
+
+    <script src="reimbursement_view.js"></script>
+</body>
+</html>

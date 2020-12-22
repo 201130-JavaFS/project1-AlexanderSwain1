@@ -1,7 +1,7 @@
 package com.revature;
 
 
-public interface Placeholder {
+public interface Placeholder2 {
 	
 	/*
 	 * This is a placeholder file created simple to maintain the Maven file structure on GitHub. 

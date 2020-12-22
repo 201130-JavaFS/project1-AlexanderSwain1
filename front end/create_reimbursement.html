@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Reimbursement</title>
+</head>
+<body style=" text-align: center; background-color: #004466; color: white">
+
+    <div style="width: 100%;">
+        <h1 style="font-size: 30pt;">Request Reimbursement</h1>
+    </div>
+    <p id="failure"></p>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <input id="amountInput" type="number" min=".01" step=".01" placeholder="Amount" style="font-size: 22pt;"/><br/>
+    <p style="font-size: 14pt; color: #CCEEFF">Amount</p>
+
+
+    <br/>
+    <br/>
+
+        
+    <input id="desciptionInput" type="text" placeholder="Desciption" style="font-size: 22pt;"/><br/>
+    <p style="font-size: 14pt; color: #CCEEFF">Desciption</p>
+
+
+    <br/>
+    <br/>
+
+
+    <input id="receiptInput" type="file" style="display: none;"/>
+    <input type="button" value="Upload Receipt" onclick="document.getElementById('receiptInput').click();"style="font-size: 22pt; background-color: #00BBDD; color: white"/>
+    <p style="font-size: 14pt; color: #CCEEFF">Receipt</p>
+
+
+    <br/>
+    <br/>
+
+
+    <select id="typeSelect" style="font-size: 22pt;">
+        <option value = "Lodging" selected>Lodging</option>
+        <option value = "Travel">Travel</option>
+        <option value = "Food">Food</option>
+        <option value = "Other">Other</option>
+    </select>
+    <p style="font-size: 14pt; color: #CCEEFF">Type</p>
+
+
+    <br/>
+    <br/>
+
+
+    <input id="submitButton" type="button" value="Submit" style="font-size: 22pt; background-color: #00BBDD; color: white"/>
+    <script src="create_reimbursement.js"></script>
+</body>
+</html>
