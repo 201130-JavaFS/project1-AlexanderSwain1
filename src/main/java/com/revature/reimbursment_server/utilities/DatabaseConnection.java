@@ -33,13 +33,13 @@ public class DatabaseConnection
 		{
 			url = "jdbc:postgresql://localhost:5432/shield";
 			username = "postgres";
-			password = "Gokuisntgoku25!";
+			password = "Password";
 		}
 		else
 		{
 			url = "jdbc:postgresql://localhost:5432/postgres";
 			username = "postgres";
-			password = "Gokuisntgoku25!";
+			password = "Password";
 		}
 
 		return DriverManager.getConnection(url, username, password);

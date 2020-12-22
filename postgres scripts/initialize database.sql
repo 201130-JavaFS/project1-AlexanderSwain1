@@ -68,4 +68,22 @@ insert into ers.users(username, password, first_name, last_name, email, role_id)
 insert into ers.users(username, password, first_name, last_name, email, role_id) values('Brian', 'úñGªŽr=õ÷]Ý©ý!¼', 'Brian', 'Bryan', 'BrianBryan@armyspy.com', 2);
 insert into ers.users(username, password, first_name, last_name, email, role_id) values('Martha', 'úñGªŽr=õ÷]Ý©ý!¼', 'Martha', 'Wisdom', 'MarthaWisdom@armyspy.com', 2);
 
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(12754, '2020-12-01', '2020-12-05', 'Office Supplies for office in LA', null, 2, 5, 2, 4);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(20058, '2020-12-02', '2020-12-07', 'Desk for office in New York', null, 2, 6, 2, 4);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(35098, '2020-12-03', '2020-12-09', 'Monitor with docking station', null, 3, 5, 3, 4);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(35431, '2020-12-04', '2020-12-10', 'Microsoft SQL Server Enterprise', null, 3, 6, 2, 4);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(6059, '2020-12-05', '2020-12-11', 'Whiteboard for second office', null, 4, 5, 2, 4);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(10930, '2020-12-06', '2020-12-12', 'Oracle Java Associates Certification Exam', null, 4, 6, 3, 4);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(5098, '2020-12-07', '2020-12-13', 'Gas to travel to Johns Creek to deliver supplies', null, 4, 5, 2, 2);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(10079, '2020-12-09', '2020-12-14', 'La Qinta Inn stay in for Tampa Florida Project', null, 2, 6, 2, 1);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(4379, '2020-12-10', '2020-12-15', 'Hotel stay while on secondary mission', null, 3, 5, 3, 1);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(9312, '2020-12-11', '2020-12-16', 'Stayed at Holiday Inn when working in San Adreas', null, 3, 6, 2, 1);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(7580, '2020-12-12', '2020-12-17', 'Unexpectd issue with Air Handler, had to AirBNB', null, 2, 5, 2, 1);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(3590, '2020-12-13', '2020-12-18', 'Dinner with CEO', null, 3, 6, 3, 3);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(2039, '2020-12-14', '2020-12-19', 'Bojangles for approved employee gathering at Johns Creek', null, 4, 5, 2, 3);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(1986, '2020-12-15', '2020-12-20', 'Captain Ds lunch while working in field at Johns Creek', null, 2, 6, 2, 3);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(569, '2020-12-16', '2020-12-21', 'McDonalds lunch while in the field', null, 3, 5, 2, 3);
+insert into ers.reimbursements(amount , submitted, resolved, description, receipt, author, resolver, status_id, type_id) values(25987, '2020-12-17', '2020-12-22', 'Food for end of year party', null, 4, 6, 3, 3);
+
+--truncate table ers.reimbursements;
 --SELECT * FROM ERS.USERS WHERE id = 1;
